@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": { "ja": "記事タイトルA1", "en": "Article Title A1" },
+    "body": { "ja": "記事本文A1", "en": "Article body A1" },
+    "date": "2025-10-14",
+    "author": "Author C",
+    "image": "/dummy.png"
+  },
+  {
+    "id": "2",
+    "title": { "ja": "記事タイトルA2", "en": "Article Title A2" },
+    "body": { "ja": "記事本文A2", "en": "Article body A2" },
+    "date": "2025-10-13",
+    "author": "Author D",
+    "image": "/dummy.png"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "top": {
+    "title": "Top Page",
+    "articlesA": "Articles A",
+    "articlesB": "Articles B"
+  },
+  "articlesA": {
+    "title": "Articles A"
+  },
+  "articlesB": {
+    "title": "Articles B"
+  },
+  "staff": {
+    "title": "Staff"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": { "ja": "ジョン・ドゥ", "en": "John Doe" },
+    "title": { "ja": "CEO", "en": "CEO" },
+    "image": "/dummy.png"
+  },
+  {
+    "id": "2",
+    "name": { "ja": "ジェーン・スミス", "en": "Jane Smith" },
+    "title": { "ja": "CTO", "en": "CTO" },
+    "image": "/dummy.png"
+  }
+]

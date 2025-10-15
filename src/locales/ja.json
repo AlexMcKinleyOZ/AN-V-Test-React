@@ -1,0 +1,16 @@
+{
+  "top": {
+    "title": "トップページ",
+    "articlesA": "A記事",
+    "articlesB": "B記事"
+  },
+  "articlesA": {
+    "title": "Articles A"
+  },
+  "articlesB": {
+    "title": "Articles B"
+  },
+  "staff": {
+    "title": "スタッフ"
+  }
+}
