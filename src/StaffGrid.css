@@ -1,0 +1,52 @@
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+  max-width: 1200px;
+  max-height: 90%;
+  margin: 0 auto;
+}
+
+.staff-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(var(--offset, 0px));
+}
+
+/* Stagger effect: slightly move odd/even rows */
+.staff-item:nth-child(3n + 1) {
+  --offset: 5px;
+}
+.staff-item:nth-child(3n + 2) {
+  --offset: -5px;
+}
+.staff-item:nth-child(3n + 3) {
+  --offset: 5px;
+}
+
+.staff-item img {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+.staff-page-grid .staff-item p {
+  z-index: 10;
+  color: gold;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-family: serif;
+  display: block !important;
+}
+
+
+/* Hide staff names/titles only in TopPage grid, not StaffPage */
+.top-page .staff-item p {
+  display: none;
+}

@@ -3,12 +3,42 @@
     "id": "1",
     "name": { "ja": "ジョン・ドゥ", "en": "John Doe" },
     "title": { "ja": "CEO", "en": "CEO" },
-    "image": "/dummy.png"
+    "image": "/img-staff-01.jpeg"
   },
   {
     "id": "2",
     "name": { "ja": "ジェーン・スミス", "en": "Jane Smith" },
     "title": { "ja": "CTO", "en": "CTO" },
-    "image": "/dummy.png"
+    "image": "/img-staff-02.jpeg"
+  },
+  {
+    "id": "3",
+    "name": { "ja": "ジョン・ドゥ", "en": "John Doe" },
+    "title": { "ja": "CEO", "en": "CEO" },
+    "image": "/img-staff-03.jpeg"
+  },
+  {
+    "id": "4",
+    "name": { "ja": "ジェーン・スミス", "en": "Jane Smith" },
+    "title": { "ja": "CTO", "en": "CTO" },
+    "image": "/img-staff-04.jpeg"
+  },
+  {
+    "id": "5",
+    "name": { "ja": "ジョン・ドゥ", "en": "John Doe" },
+    "title": { "ja": "CEO", "en": "CEO" },
+    "image": "/img-staff-05.jpeg"
+  },
+  {
+    "id": "6",
+    "name": { "ja": "ジェーン・スミス", "en": "Jane Smith" },
+    "title": { "ja": "CTO", "en": "CTO" },
+    "image": "/img-staff-06.jpeg"
+  },
+  {
+    "id": "7",
+    "name": { "ja": "ジョン・ドゥ", "en": "John Doe" },
+    "title": { "ja": "CEO", "en": "CEO" },
+    "image": "/img-staff-07.jpeg"
   }
 ]

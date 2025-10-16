@@ -1,11 +1,12 @@
 // src/components/Footer.tsx
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
   return (
-    <footer>
-      <h1>My Site</h1>
-        <p>Test Site</p>
+    <footer className="footer">
+      <h1 className="u-med-text">{ t("footer.title")}</h1>
     </footer>
   );
 };

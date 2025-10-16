@@ -1,8 +1,35 @@
 {
+  "header": {
+    "top": "Top",
+    "about": "About",
+    "staff": "Staff",
+    "media": "Media",
+    "contact": "Contact"
+  },
   "top": {
-    "title": "Top Page",
+    "title": "X Corp.",
+    "text": "Latest Technologies, Optimized",
+    "about-title": "About Us",
+    "about-text-a": "We’re a team of forward-thinkers and tech enthusiasts, constantly pushing the boundaries of what’s possible with the latest technologies.",
+    "about-text-b": "We innovate at the forefront of emerging tech, shaping solutions that anticipate the future and redefine what’s possible in a rapidly evolving world.",
+    "staff-button": "Meet the Staff",
+    "staff-title": "Our Staff",
+    "staff-text": "Get to know our talented and diverse team, a group of dedicated professionals working together to tackle the complex challenges of tomorrow and create innovative solutions that make a real difference.",
     "articlesA": "Articles A",
-    "articlesB": "Articles B"
+    "articlesB": "Articles B",
+    "media-title-a": "READ",
+    "media-title-b": "ABOUT",
+    "media-title-c": "OUR",
+    "media-title-d": "SUCCESS!",
+    "media-text": "Check out the latest news, articles, and interviews.",
+    "media-button": "See more",
+    "media-announcements": "Announcements",
+    "media-featured": "Featured",
+    "contact-title": "Contact Us",
+    "contact-text": "If you have any questions or comments, please feel free to reach out to us. We look forward to hearing from you.",
+    "contact-button": "Send",
+    "contact-success": "Thank you for contacting us. We’ll get back to you as soon as possible."
+
   },
   "articlesA": {
     "title": "Articles A"
@@ -11,6 +38,20 @@
     "title": "Articles B"
   },
   "staff": {
-    "title": "Staff"
+    "title": "Our Staff"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Thank you for contacting us. We’ll get back to you as soon as possible.",
+    "error": "An error occurred. Please try again later.",
+    "name-placeholder": "Your Name",
+    "email-placeholder": "Your Email",
+    "message-placeholder": "Your Message"
+  },
+  "footer": {
+    "title":"X Corp. 2025"
   }
 }
