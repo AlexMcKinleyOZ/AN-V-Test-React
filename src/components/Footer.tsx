@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   const { t } = useTranslation();
   return (
     <footer className="footer">
-      <h1 className="u-med-text">{ t("footer.title")}</h1>
+      <h2>{ t("footer.title")}</h2>
     </footer>
   );
 };
