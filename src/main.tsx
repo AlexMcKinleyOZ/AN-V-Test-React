@@ -8,6 +8,7 @@ import './StaffGrid.css';
 import './Articles.css';
 import './ArticleDetail.css';
 import './tumblex.css'
+import './arrow.css';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

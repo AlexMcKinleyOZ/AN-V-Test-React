@@ -1,3 +1,8 @@
+:root {
+  --title-font: "Playfair Display", serif;
+  --body-text: "Inter", sans-serif;
+} 
+
 html, body {
   margin: 0;
   padding: 0;
@@ -59,7 +64,7 @@ header {
   position: relative;
   z-index: 2;
   color: gold;
-  font-family: serif;
+  font-family: var(--title-font);
 }
 
 header a {
@@ -83,7 +88,7 @@ header a:hover {
 }
 
 .footer {
-  font-family: serif;
+  font-family: var(--title-font);
   background-color: rgb(58, 58, 58);
   color: gold;
   text-align: center;
@@ -152,7 +157,7 @@ nav {
   color: gold;
   text-align: center;
   font-size: 4rem; /* adjust */
-  font-family: serif;
+  font-family: var(--title-font);
 }
 
 .kv-text {
@@ -161,13 +166,13 @@ nav {
   color: gold;
   text-align: center;
   font-size: 2rem; /* adjust */
-  font-family: serif;
+  font-family: var(--body-text);
 }
 
 .section-title {
   color: gold;
   font-size:3rem;
-  font-family: serif;
+  font-family: var(--title-font);
 }
 
 .about {
@@ -252,6 +257,7 @@ padding-block: 90px;
 }
 
 .title-row {
+  font-family: var(--title-font);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -349,6 +355,22 @@ padding-block: 90px;
   outline: none;
 }
 
+.article-breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--body-text);
+  font-size: 0.9rem;
+  color: rgb(180, 180, 180);
+  margin-bottom: 15px;
+}
+
+.article-breadcrumbs a {
+  color: gold;
+  text-decoration: none;
+}
+
 /* Utilities */
 
 .u-huge-text {
@@ -368,7 +390,7 @@ letter-spacing: 0.1em;
 }
 
 .u-serif-text {
-  font-family: serif;
+  font-family: var(--title-font)
 }
 
 .u-from-left {
@@ -485,14 +507,14 @@ letter-spacing: 0.1em;
   color: gold;
   font-size: 1.2rem;
   margin: 10px 0 0 0;
-  font-family: serif;
+  font-family: var(--title-font);
 }
 
 .staff-card p {
   color: gold;
   font-size: 1rem;
   margin: 5px 0 0 0;
-  font-family: serif;
+  font-family: var(--body-text);
 }
 
 .u-pc-only {

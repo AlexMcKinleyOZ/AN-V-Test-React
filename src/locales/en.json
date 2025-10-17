@@ -23,7 +23,7 @@
     "media-title-d": "SUCCESS!",
     "media-text": "Check out the latest news, articles, and interviews.",
     "media-button": "See more",
-    "media-announcements": "Announcements",
+    "media-announcements": "News",
     "media-featured": "Featured",
     "contact-title": "Contact Us",
     "contact-text": "If you have any questions or comments, please feel free to reach out to us. We look forward to hearing from you.",
@@ -32,7 +32,7 @@
 
   },
   "articlesA": {
-    "title": "Announcements",
+    "title": "News",
     "description": "Read about our most recent breakthroughs in our comprehensive collection of internally written pieces."
   },
   "articlesB": {

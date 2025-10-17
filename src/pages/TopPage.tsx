@@ -24,9 +24,6 @@ const TopPage: React.FC = () => {
 
   return (
     <div className="top-page">
-      <header>
-      </header>
-
       <div className="kv">
         <div className="kv-left-box">
           <video className="kv-video" autoPlay muted loop>
@@ -35,7 +32,7 @@ const TopPage: React.FC = () => {
           </video>
           <div className="kv-overlay" />
           <h1 ref={kvTitle} className="kv-title">{t('top.title')}</h1>
-          <p className='kv-text'>{t('top.text')}</p>
+          <p className='kv-text u-serif-text'>{t('top.text')}</p>
         </div>
         <div className="kv-right-box">
         </div>
