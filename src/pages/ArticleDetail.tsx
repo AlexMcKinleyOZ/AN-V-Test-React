@@ -16,7 +16,7 @@ const ArticleDetail: React.FC<Props> = ({ collection }) => {
 
   useEffect(() => {
     if (id) {
-      getArticleById(collection, id).then((a) => a && setArticle(a));
+      getArticleById(collection, id).then((a) => setArticle(a ?? null));
     }
   }, [id, collection]);
 
@@ -25,12 +25,14 @@ const ArticleDetail: React.FC<Props> = ({ collection }) => {
   const image = article.image || '/dummy.png';
 
   return (
-    <div className="article-detail">
-      <h2>{article.title[lang]}</h2>
-      <img src={image} alt={article.title[lang]} />
-      <p>{article.date} | {article.author}</p>
-      <div>{article.body?.[lang]}</div>
-    </div>
+    <main className="article-detail-page">
+      <h1>{article.title[lang]}</h1>
+      <div className="article-content">
+        {image && <img src={image} alt={article.title[lang]} className="article-image" />}
+        <p className="article-meta">{article.date} | {article.author}</p>
+        <div className="article-body">{article.body?.[lang]}</div>
+      </div>
+    </main>
   );
 };
 

@@ -23,7 +23,6 @@ const ContactSection: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // TODO: replace with real submission logic (e.g., API call)
     console.log("Form submitted:", formData);
 
     setSubmitted(true);

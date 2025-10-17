@@ -32,10 +32,12 @@
 
   },
   "articlesA": {
-    "title": "Articles A"
+    "title": "Announcements",
+    "description": "Read about our most recent breakthroughs in our comprehensive collection of internally written pieces."
   },
   "articlesB": {
-    "title": "Articles B"
+    "title": "featured",
+    "description": "The ground-breaking work of X Corp. has been featured in various written media."
   },
   "staff": {
     "title": "Our Staff"

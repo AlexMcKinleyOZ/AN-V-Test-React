@@ -1,25 +1,23 @@
-import React, { useEffect, useState } from 'react';
-import { getArticlesB } from '../services/articleService';
-import type { Article } from '../types/article';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 import ArticleCard from '../components/ArticleCard';
+import articlesB from '../data/articlesB.json';
 
-const ArticlesAPage: React.FC = () => {
-  const [articles, setArticles] = useState<Article[]>([]);
-
-  useEffect(() => {
-    getArticlesB().then(setArticles);
-  }, []);
+const ArticlesB: React.FC = () => {
+  const { t } = useTranslation();
 
   return (
-    <div>
-      <h2>Articles B</h2>
+    <main className="articles-page">
+      <h2 className="section-title">{t('articlesB.title')}</h2>
+      <p className="section-description">{t('articlesB.description')}</p>
+
       <div className="articles-grid">
-        {articles.map((article) => (
+        {articlesB.map((article) => (
           <ArticleCard key={article.id} article={article} collection="B" />
         ))}
       </div>
-    </div>
+    </main>
   );
 };
 
-export default ArticlesAPage;
+export default ArticlesB;

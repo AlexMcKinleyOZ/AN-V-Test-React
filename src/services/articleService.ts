@@ -1,19 +1,20 @@
 import type { Article } from '../types/article';
+import articlesA from '../data/articlesA.json';
+import articlesB from '../data/articlesB.json';
 
 export const getArticlesA = async (): Promise<Article[]> => {
-  const res = await import('../data/articlesA.json');
-  return res.default;
+  return articlesA;
 };
 
 export const getArticlesB = async (): Promise<Article[]> => {
-  const res = await import('../data/articlesB.json');
-  return res.default;
+  return articlesB;
 };
 
+// Fetch a single article by collection and ID
 export const getArticleById = async (
   collection: 'A' | 'B',
   id: string
 ): Promise<Article | undefined> => {
-  const articles = collection === 'A' ? await getArticlesA() : await getArticlesB();
-  return articles.find((a) => a.id === id);
+  const articles = collection === 'A' ? articlesA : articlesB;
+  return articles.find((article) => article.id === id);
 };

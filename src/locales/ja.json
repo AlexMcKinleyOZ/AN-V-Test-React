@@ -30,10 +30,12 @@
     "contact-success": "お問い合わせいただきありがとうございます。できるだけ早くご連絡いたします。"
   },
   "articlesA": {
-    "title": "Articles A"
+    "title": "お知らせ",
+    "description": "社内で執筆した包括的な記事集で、最新のブレークスルーをご覧ください。"
   },
   "articlesB": {
-    "title": "Articles B"
+    "title": "注目記事",
+    "description": "X社の画期的な取り組みは、さまざまなメディアで紹介されています。"
   },
   "staff": {
     "title": "スタッフ"

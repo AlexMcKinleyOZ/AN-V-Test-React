@@ -5,6 +5,8 @@ import './i18n'; // <- import your i18n setup
 import './index.css';
 import './logo.css';
 import './StaffGrid.css';
+import './Articles.css';
+import './ArticleDetail.css';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
