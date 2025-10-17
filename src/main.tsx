@@ -7,6 +7,7 @@ import './logo.css';
 import './StaffGrid.css';
 import './Articles.css';
 import './ArticleDetail.css';
+import './tumblex.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

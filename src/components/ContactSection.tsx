@@ -30,7 +30,7 @@ const ContactSection: React.FC = () => {
   };
 
   return (
-    <section className="contact" id="contact-section">
+    <>
       <video className="contact-video" autoPlay muted loop>
         <source src="contact-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -89,7 +89,7 @@ const ContactSection: React.FC = () => {
           </p>
         )}
       </form>
-    </section>
+    </>
   );
 };
 
