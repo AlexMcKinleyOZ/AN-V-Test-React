@@ -203,6 +203,7 @@ padding-block: 90px;
   color: gold;
   background-color: #111;
   padding-block: 100px;
+  opacity: 0;
 }
 
 .staff-video {
@@ -286,6 +287,7 @@ padding-block: 90px;
   color: gold;
   background-color: black;
   padding-block: 100px;
+  opacity: 0;
 }
 
 .contact-video {
@@ -579,6 +581,42 @@ letter-spacing: 0.1em;
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+/* LinkedIn Feed Styles */
+
+.linkedin-feed {
+  margin: 0 auto;
+  border-radius: 16px;
+  border: gold 3px solid;
+  background: #333;
+  padding: 40px 0 30px 0;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  width: 90%;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+.linkedin-feed-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  align-items: stretch;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.linkedin-post {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  padding: 18px 20px;
+  /* Remove width: 90% and min-width: 200px to let grid control sizing */
+  gap: 12px;
+  box-sizing: border-box;
+}
+
 /* Optional: make it responsive */
 @media (max-width: 1100px) {
   .header-inner {
@@ -615,6 +653,12 @@ letter-spacing: 0.1em;
 .title-row-img {
     height: 140px;
   }   
+}
+
+@media (max-width: 700px) {
+  .linkedin-feed-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 600px) {

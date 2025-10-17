@@ -12,6 +12,7 @@
     "about-title": "About Us",
     "about-text-a": "We’re a team of forward-thinkers and tech enthusiasts, constantly pushing the boundaries of what’s possible with the latest technologies.",
     "about-text-b": "We innovate at the forefront of emerging tech, shaping solutions that anticipate the future and redefine what’s possible in a rapidly evolving world.",
+    "linkedin-feed-title": "From our LinkedIn",
     "staff-button": "Meet the Staff",
     "staff-title": "Our Staff",
     "staff-text": "Get to know our talented and diverse team, a group of dedicated professionals working together to tackle the complex challenges of tomorrow and create innovative solutions that make a real difference.",
@@ -29,7 +30,6 @@
     "contact-text": "If you have any questions or comments, please feel free to reach out to us. We look forward to hearing from you.",
     "contact-button": "Send",
     "contact-success": "Thank you for contacting us. We’ll get back to you as soon as possible."
-
   },
   "articlesA": {
     "title": "News",
